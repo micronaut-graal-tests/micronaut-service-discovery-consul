@@ -21,6 +21,18 @@
   "name": "sun.security.ssl.SSLContextImpl$TLSContext",
   "allDeclaredConstructors": true
 }, {
+  "name": "com.fasterxml.jackson.databind.PropertyNamingStrategy$UpperCamelCaseStrategy",
+  "allDeclaredConstructors": true,
+  "allPublicMethods": true
+}, {
+  "name": "io.micronaut.cache.interceptor.DefaultCacheKeyGenerator",
+  "allDeclaredConstructors": true,
+  "allPublicMethods": true
+}, {
+  "name": "java.util.ArrayList",
+  "allDeclaredConstructors": true,
+  "allPublicMethods": true
+}, {
   "name": "[Lio.micronaut.http.MediaType;",
   "allDeclaredConstructors": true
 }]
