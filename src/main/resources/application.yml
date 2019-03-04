@@ -2,10 +2,13 @@
 micronaut:
     application:
         name: service-discovery
+jackson:
+    module-scan: false
+    bean-introspection-module: true
 
 ---
 consul:
-  client:
-    registration:
-      enabled: true
-    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+    client:
+        registration:
+              enabled: true
+        defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
