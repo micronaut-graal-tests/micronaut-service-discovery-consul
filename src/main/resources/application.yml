@@ -3,7 +3,7 @@ micronaut:
     application:
         name: service-discovery
 jackson:
-    module-scan: false
+#    module-scan: false
     bean-introspection-module: true
 
 ---
