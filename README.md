@@ -6,3 +6,8 @@ Test application for Micronaut and GraalVM that uses:
 - Consul as service discovery.
 - Http `@Client` pointing to the same application
 - `GatewayController` that uses the Http Client to call itself through the network.
+
+```bash
+curl localhost:8080/hello/Micronaut
+curl localhost:8080/api/hello/Micronaut
+```
