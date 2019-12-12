@@ -33,7 +33,7 @@ dependencies {
     implementation "io.micronaut:micronaut-http-server-netty"
     implementation "io.micronaut:micronaut-discovery-client"
 
-    compileOnly "com.oracle.substratevm:svm"
+    compileOnly "org.graalvm.nativeimage:svm"
 
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
 
