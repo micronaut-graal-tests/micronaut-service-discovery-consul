@@ -1,15 +1,13 @@
 ---
 micronaut:
-    application:
-        name: service-discovery
-jackson:
-    bean-introspection-module: true
+  application:
+    name: service-discovery
 
 ---
 consul:
-    client:
-        registration:
-              enabled: true
-              check:
-                  deregister-critical-service-after: 30s
-        defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+  client:
+    registration:
+      enabled: true
+      check:
+        deregister-critical-service-after: 30s
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
