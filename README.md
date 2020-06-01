@@ -7,6 +7,12 @@ Test application for Micronaut and GraalVM that uses:
 - Http `@Client` pointing to the same application
 - `GatewayController` that uses the Http Client to call itself through the network.
 
+Start Consul Server:
+
+```bash
+docker run -it --rm -p 8500:8500 consul:1.2.4
+```
+
 ```bash
 curl localhost:8080/hello/Micronaut
 curl localhost:8080/api/hello/Micronaut
