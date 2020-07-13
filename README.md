@@ -10,7 +10,7 @@ Test application for Micronaut and GraalVM that uses:
 Start Consul Server:
 
 ```bash
-docker run -it --rm -p 8500:8500 consul:1.2.4
+docker run -it --rm -p 8500:8500 consul:1.8.0
 ```
 
 ```bash
