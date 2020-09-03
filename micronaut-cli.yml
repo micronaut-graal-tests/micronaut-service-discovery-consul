@@ -1,5 +1,0 @@
-profile: service
-defaultPackage: service.discovery
----
-testFramework: junit
-sourceLanguage: java
