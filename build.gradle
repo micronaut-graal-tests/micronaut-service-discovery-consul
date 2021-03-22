@@ -41,5 +41,4 @@ java {
 
 nativeImage {
     imageName('service-discovery-consul')
-    args = ["-H:+StaticExecutableWithDynamicLibC"]
 }
