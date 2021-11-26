@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./gradlew nativeImage
-cp build/native-image/service-discovery-consul .
+./gradlew nativeCompile
+cp build/native/nativeCompile/service-discovery-consul .
